@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none !important;
+    box-sizing: border-box !important;
+    text-decoration: none !important;
+    font-family: 'Nunito' !important;
+}
+
+.letter_space {
+    letter-spacing: 4px;
+}
+
+.sing_up {
+    border-radius: 8px;
+    padding: 9px 35px;
+    background-color: transparent !important;
+    border: 1px solid #3E3F43
+}
+
+.slick-slide {
+    padding: 0 12px !important;
+}
+
+.nav_sticky {
+    position: sticky;
+    top: 0px;
+    left: 0;
+    background-color: white;
+    z-index: 10;
+    padding: 10px 0px;
+}
+
+.pt_85 {
+    padding-top: 85px;
+}
+
+.Explore_btn {
+    padding: 14px 23px;
+    background: #DAA520;
+    border: 1px solid #DAA520;
+    color: white;
+    border-radius: 4px;
+    transition: all 1s;
+}
+
+.Explore_btn:hover {
+    background: #ffffff;
+    color: #DAA520;
+
+}
+
+p,
+h1 {
+    margin-bottom: 0 !important;
+}
+
+
+
+.nav_container {
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 0px 28px 0px 80px !important;
+}
+
+.header_container {
+    max-width: 952px;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+.sing_up_btn {
+    background-color: #FFF7F4 !important;
+    padding: 9px 35px !important;
+    border: 1px solid #373737 !important;
+    border-radius: 10px !important;
+}
+
+.header_shadow {
+    position: absolute;
+    content: "";
+    bottom: 0%;
+    z-index: -3;
+    right: 170px;
+}
+
+.line {
+    width: 316px;
+    height: 1px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.custom_line {
+    width: 65px;
+    height: 1px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.testi_line {
+    width: 240px;
+    height: 1px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.categories_line {
+    width: 202px;
+    height: 1px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.white_space {
+    white-space: nowrap !important;
+}
+
+.woodies_shadow {
+    position: absolute;
+    content: "";
+    bottom: 102px;
+    left: -120px !important;
+
+}
+
+header::after {
+    position: absolute;
+    content: '';
+    top: 0px;
+    right: 0px;
+    width: 32%;
+    height: 100%;
+    background-color: #F9BDBD;
+    z-index: -12;
+    border-radius: 0px 0px 0px 130px;
+}
+
+.spoon {
+    position: absolute;
+    content: '';
+    top: -45px;
+    right: 0px;
+}
+
+.Personalized_btn {
+    padding: 14px 24px;
+    background: #DAA520;
+    border: 1px solid #DAA520;
+    color: white;
+    border-radius: 4px;
+    transition: all 1s !important;
+}
+
+.Personalized_btn:hover {
+    background: #ffffff;
+    color: #DAA520;
+}
+
+.Shop_Now_btn {
+    padding: 8px 18px;
+    border: 1px solid #3E3F43;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.Shop_yellow_btn {
+    padding: 8px 18px;
+    border: 1px solid #3E3F43;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.max_w504 {
+    max-width: 504px;
+}
+
+.desk {
+    background-color: #F9BDBD;
+    height: 400px;
+    border-radius: 0px 100px 0px 100px !important;
+}
+
+.chair {
+    background-color: #F7DEA6;
+    height: 400px;
+    border-radius: 0px 100px 0px 100px !important;
+}
+
+ul li a:hover {
+    color: #DAA520 !important;
+}
+
+.Testi_card {
+    background-color: white;
+    height: 100%;
+    border-radius: 0px 50px 0px 50px;
+    border: 1px solid #A8DCEC;
+}
+
+.slick-dots li button:before {
+    top: 22px !important;
+    left: 96px !important;
+    width: 40px !important;
+    height: 8px !important;
+    border-radius: 8px !important;
+    margin-left: 8px !important;
+    margin-top: 50px !important;
+    opacity: 100% !important;
+    background-color: #E5E5E5 !important;
+    content: "" !important;
+    display: flex !important;
+    justify-content: end !important;
+
+}
+
+.slick-dots li.slick-active button:before {
+    background-color: #DAA520 !important;
+    opacity: 100% !important;
+    content: "" !important;
+}
+
+.slick-dots li {
+    width: 40px !important;
+}
+
+.cursor_point {
+    cursor: pointer;
+}
+
+input {
+    outline: none;
+    border: 0;
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+    width: 100%;
+}
+
+.input_btn {
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #DAA520;
+    max-width: 448px;
+}
+
+.Sub_btn {
+    padding: 9px 24px !important;
+    background-color: #DAA520 !important;
+    border: #DAA520;
+    border-radius: 0px 3px 3px 0px;
+    color: white;
+}
+
+.footer_bg {
+    background-color: white;
+}
+
+.footer_img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+
